@@ -256,7 +256,7 @@ class FilePickerWeb extends FilePickerPlatform {
         return 'video/*';
 
       case FileType.media:
-        return 'video/*,image/*';
+        return 'video/*, image/*';
 
       case FileType.custom:
         return allowedExtensions!.fold(
